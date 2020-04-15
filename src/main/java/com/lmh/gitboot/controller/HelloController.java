@@ -10,4 +10,9 @@ public class HelloController {
     public String hello(){
         return "Hello Git";
     }
+
+    @RequestMapping("/ssh")
+    public String ssh(){
+        return "Hello SSH";
+    }
 }
